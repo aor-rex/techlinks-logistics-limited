@@ -325,6 +325,7 @@ a:hover {
 .footer-para {
   color: whitesmoke;
   font-size: 18px;
+  line-height: 25px;
 
 }
 
@@ -333,6 +334,9 @@ a:hover {
   font-size: 25px;
   margin-right: 20px;
   margin-top: 20px;
+}
+.fa-brands:hover {
+  color: white;
 }
 
 .footer-list {
@@ -374,7 +378,8 @@ a.number:hover .fa-phone {
 }
 
 .icon a:hover {
-  color: #EF2E3D;
+  color: #4D4D4D;
+  transition: background-color 0.3s ease;
 }
 
 .send {
