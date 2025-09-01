@@ -319,8 +319,9 @@ a:hover {
 
 }
 
-.fa {
+.fa-brands {
   color: #EF2E3D;
+  font-size: 25px;
   margin-right: 20px;
   margin-top: 20px;
 }
