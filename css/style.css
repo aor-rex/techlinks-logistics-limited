@@ -11,7 +11,7 @@ a {
   text-decoration: none;
 }
 
-body {
+html,body {
   font-family: 'Ubuntu', 'Roboto', Arial, sans-serif;
   color: black;
   line-height: 1.6;
