@@ -84,9 +84,12 @@ a:hover {
 }
 
 .logo-image {
-  height: 1200px;
-  width: 1200px;
+  height: auto;
+  width: 180px;
+  /* or whatever fits */
+  max-width: 100%;
 }
+
 
 
 .nav-links {
@@ -116,8 +119,14 @@ a:hover {
 }
 
 .hero-content {
-  padding: 0px 400px 100px 0px;
+  padding: 0 20px 100px;
   border-radius: 8px;
+}
+
+@media(min-width: 768px) {
+  .hero-content {
+    padding: 0 60px 100px;
+  }
 }
 
 .hero h1 {
@@ -248,7 +257,7 @@ a:hover {
 }
 
 .service-item h3 {
-  font-size: 50m !important;
+  font-size: 1.4rem;
   margin-bottom: 10px;
 }
 
@@ -366,10 +375,6 @@ a.number:hover .fa-phone {
 
 .icon a:hover {
   color: #EF2E3D;
-}
-
-form {
-  width: 20px;
 }
 
 .send {
