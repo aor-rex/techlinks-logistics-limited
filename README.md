@@ -1,6 +1,6 @@
 # Techlinks Logistics Limited 🌍  
 
-*"Resolving challenges, delivering sustainable solutions."*  
+*"Delivering Services with integrity"*  
 
 ---
 
